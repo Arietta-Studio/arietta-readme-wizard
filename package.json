@@ -1,0 +1,118 @@
+{
+  "name": "@arietta-studio/readme-wizard",
+  "version": "1.0.0",
+  "description": "Generate Arietta style product README",
+  "homepage": "https://github.com/arietta-studio/arietta-readme-generator",
+  "bugs": {
+    "url": "https://github.com/arietta-studio/arietta-readme-wizard/issues/new/choose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arietta-studio/arietta-readme-wizard.git"
+  },
+  "license": "MIT",
+  "author": "Arietta Studio <info@arietta-studio.ai>",
+  "sideEffects": false,
+  "scripts": {
+    "build": "dumi build",
+    "ci": "bun run lint",
+    "dev": "dumi dev",
+    "i18n": "arietta-i18n",
+    "icon-sync": "node ./scripts/syncSimpleIconList.mjs",
+    "lint": "bun run lint:ts && bun run lint:style",
+    "lint:md": "remark . --quiet --frail --output",
+    "lint:style": "stylelint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "lint:ts": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "prepare": "husky install",
+    "prettier": "prettier -c --write \"**/**\"",
+    "pull": "git pull",
+    "release": "semantic-release",
+    "start": "next start",
+    "stylelint": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "test": "vitest --passWithNoTests",
+    "test:coverage": "vitest run --coverage --passWithNoTests",
+    "test:update": "vitest -u",
+    "type-check": "tsc --noEmit"
+  },
+  "lint-staged": {
+    "*.md": [
+      "remark --quiet --output --",
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.json": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{js,jsx}": [
+      "prettier --write",
+      "stylelint --fix",
+      "eslint --fix"
+    ],
+    "*.{ts,tsx}": [
+      "prettier --parser=typescript --write",
+      "stylelint --fix",
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "@babel/runtime": "^7",
+    "@arietta-studio/ui": "latest",
+    "@vercel/og": "0.5.18",
+    "ahooks": "^3",
+    "antd": "^5",
+    "antd-style": "^3",
+    "fast-deep-equal": "^3",
+    "immer": "^10",
+    "leva": "latest",
+    "lodash-es": "^4",
+    "lucide-react": "latest",
+    "polished": "^4",
+    "query-string": "^8",
+    "react-layout-kit": "^1",
+    "react-markdown": "^8",
+    "react-syntax-highlighter": "^15",
+    "rehype-highlight": "^7",
+    "rehype-raw": "^7",
+    "remark-gfm": "^3",
+    "remark-slug": "^7",
+    "remark-toc": "^8",
+    "simple-icons": "^10.0.0",
+    "swr": "^2.2.4",
+    "url-join": "^5",
+    "use-merge-value": "^1",
+    "utility-types": "^3",
+    "zustand": "^4.4",
+    "zustand-utils": "^1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18",
+    "@arietta-studio/lint": "latest",
+    "@testing-library/react": "^14",
+    "@types/lodash-es": "^4",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitest/coverage-v8": "latest",
+    "commitlint": "^18",
+    "concurrently": "^8",
+    "cross-env": "^7",
+    "dumi": "^2",
+    "dumi-theme-arietta": "latest",
+    "eslint": "^8",
+    "father": "4.3.1",
+    "husky": "^8",
+    "jsdom": "^23.0.0",
+    "lint-staged": "^15",
+    "prettier": "^3",
+    "react": "^18",
+    "react-dom": "^18",
+    "remark": "^14",
+    "remark-cli": "^11",
+    "semantic-release": "^21",
+    "stylelint": "^15",
+    "typescript": "^5",
+    "vitest": "latest"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://registry.npmjs.org"
+  }
+}
