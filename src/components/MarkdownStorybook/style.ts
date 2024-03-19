@@ -14,12 +14,9 @@ export const useStyles = createStyles(({ css, token }) => {
       box-shadow: 0 0 0 1px ${token.colorBorder};
     `,
     markdown: css`
-      overflow-x: hidden;
-      overflow-y: auto;
-
+      overflow: hidden auto;
       width: 100%;
       height: 100%;
-
       background: ${token.colorBgContainer};
     `,
     preview: css`
