@@ -132,7 +132,7 @@ This project is [MIT](./LICENSE) licensed.
 [bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
 [codespaces-link]: https://codespaces.new/arietta-studio/arietta-readme-wizard
 [codespaces-shield]: https://github.com/codespaces/badge.svg
-[discord-link]: https://discord.gg/AYFPHvv2jT
+[discord-link]: https://discord.gg/
 [discord-shield]: https://img.shields.io/discord/1127171173982154893?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=flat-square
 [github-action-release-link]: https://github.com/arietta-studio/arietta-readme-wizard/actions/workflows/release.yml
 [github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/arietta-studio/arietta-readme-wizard/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
@@ -146,7 +146,7 @@ This project is [MIT](./LICENSE) licensed.
 [github-forks-shield]: https://img.shields.io/github/forks/arietta-studio/arietta-readme-wizard?color=8ae8ff&labelColor=black&style=flat-square
 [github-issues-link]: https://github.com/arietta-studio/arietta-readme-wizard/issues
 [github-issues-shield]: https://img.shields.io/github/issues/arietta-studio/arietta-readme-wizard?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/arietta-studio/arietta-readme-wizard/blob/main/LICENSE
+[github-license-link]: https://github.com/arietta-studio/arietta-readme-wizard/blob/master/LICENSE
 [github-license-shield]: https://img.shields.io/github/license/arietta-studio/arietta-readme-wizard?color=white&labelColor=black&style=flat-square
 [github-release-link]: https://github.com/arietta-studio/arietta-readme-wizard/releases
 [github-release-shield]: https://img.shields.io/github/v/release/arietta-studio/arietta-readme-wizard?logo=github&color=369eff&labelColor=black&style=flat-square
