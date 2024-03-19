@@ -8,8 +8,8 @@ import { genWebsiteShield } from '@/services/genCustomShield';
 
 const controls = {
   /* eslint-disable sort-keys-fix/sort-keys-fix */
-  label: 'Arietta Chat',
-  url: 'https://chat-preview.arietta-studio.ai',
+  label: 'Arietta Readme Wizard',
+  url: 'https://readme-wizard.arietta.studio',
   up_message: 'online',
   down_message: 'offline',
   labelColor: {

@@ -6,7 +6,7 @@ import { genMarkdownInstallation } from '@/services/genMarkdownInstallation';
 
 const controls = {
   /* eslint-disable sort-keys-fix/sort-keys-fix */
-  packageName: '@arietta-studio/ui',
+  packageName: '@arietta-studio/readme-wizard',
   esm: true,
   bun: true,
   nextjs: true,

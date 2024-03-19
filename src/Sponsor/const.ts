@@ -1,6 +1,6 @@
 import { CSSProperties } from 'react';
 
-export const DEFAULT_WIDTH = 800;
+export const DEFAULT_WIDTH = 600;
 export const DEFAULT_AVATAR_SIZE = 64;
 
 export interface MemberProfile {

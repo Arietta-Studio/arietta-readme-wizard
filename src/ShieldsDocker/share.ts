@@ -5,7 +5,7 @@ import { shieldBaseControls } from '@/const/shieldBaseControls';
 
 export const defaultControls = {
   /* eslint-disable sort-keys-fix/sort-keys-fix */
-  packageName: 'arietta-studio/arietta-chat',
+  packageName: 'arietta-studio/arietta-readme-wizard',
   /* eslint-enable */
 };
 

@@ -10,12 +10,12 @@ import { genSocialShields } from '@/services/genSocialShield';
 
 const idControls = {
   /* eslint-disable sort-keys-fix/sort-keys-fix */
-  qq: '40073838',
-  wechat: '40073838',
-  x: 'canisminor1990',
-  weibo: 'Canis_Minor',
-  discord: 'canisminor1990',
-  steam: 'canisminor',
+  qq: '',
+  wechat: '',
+  x: '',
+  weibo: '',
+  discord: '',
+  steam: '',
   /* eslint-enable */
 };
 

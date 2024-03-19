@@ -10,7 +10,7 @@ import { genBilibiliShield } from '@/services/genCustomShield';
 const controls = {
   /* eslint-disable sort-keys-fix/sort-keys-fix */
   uid: {
-    value: '410372',
+    value: '',
     type: LevaInputs.STRING,
   },
   label: 'followers',

@@ -7,16 +7,15 @@ import { genMarkdownHero } from '@/services/genMarkdownHero';
 
 const controls = {
   /* eslint-disable sort-keys-fix/sort-keys-fix */
-  logo: 'https://registry.npmmirror.com/@arietta-studio/assets-logo/1.0.0/files/assets/logo-3d.webp',
+  logo: 'https://unpkg.com/@arietta-studio/assets-logo@latest/assets/logo-3d.webp',
   logo2: '',
-  title: 'Arietta Chat',
-  description:
-    'Arietta Chat is a open-source, extensible , high-performance chatbot framework. It supports one-click free deployment of your private ChatGPT/LLM web application.',
+  title: 'Arietta Readme Wizard',
+  description: 'Generate Arietta style product README 🪄',
   banner: 'https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png',
   backToTop: true,
-  Github: folder({ ...defaultControls, branch: 'main', workflow: 'test,release' }),
+  Github: folder({ ...defaultControls, branch: 'master', workflow: 'test,release' }),
   NPM: folder({
-    packageName: '@arietta-studio/chat',
+    packageName: '@arietta-studio/readme-wizard',
   }),
   ...defaultControlsExtra,
   /* eslint-enable */

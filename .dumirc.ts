@@ -66,9 +66,9 @@ const themeConfig = {
   },
   giscus: {
     category: 'Ideas',
-    categoryId: '', // TODO: Add categoryId
+    categoryId: 'DIC_kwDOLikaOs4CeFYb',
     repo: 'arietta-studio/arietta-readme-wizard',
-    repoId: '', // TODO: Add repoId
+    repoId: 'R_kgDOLikaOg',
   },
   name: 'Readme Wizard',
   nav: [

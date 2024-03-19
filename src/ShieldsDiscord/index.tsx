@@ -10,11 +10,11 @@ import { genDiscordShield } from '@/services/genCustomShield';
 const controls = {
   /* eslint-disable sort-keys-fix/sort-keys-fix */
   serverId: {
-    value: '1127171173982154893',
+    value: '', // TODO: default value
     type: LevaInputs.STRING,
   },
   label: 'discord',
-  link: 'https://discord.gg/AYFPHvv2jT',
+  link: 'https://discord.gg/',
   ['⚒️']: folder(
     {
       ...pick(shieldBaseControls, ['style', 'labelColor']),
